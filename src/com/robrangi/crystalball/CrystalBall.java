@@ -1,4 +1,4 @@
-package com.example.crystalball;
+package com.robrangi.crystalball;
 
 import java.util.Random;
 

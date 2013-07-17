@@ -1,4 +1,4 @@
-package com.example.crystalball;
+package com.robrangi.crystalball;
 
 import android.app.Activity;
 import android.graphics.drawable.AnimationDrawable;
@@ -13,7 +13,8 @@ import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.crystalball.ShakeDetector.OnShakeListener;
+import com.robrangi.crystalball.R;
+import com.robrangi.crystalball.ShakeDetector.OnShakeListener;
 
 public class MainActivity extends Activity {
 
