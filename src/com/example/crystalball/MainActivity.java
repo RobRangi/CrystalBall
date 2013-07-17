@@ -7,18 +7,18 @@ import android.hardware.SensorManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.crystalball.ShakeDetector.OnShakeListener;
 
 public class MainActivity extends Activity {
 
-	public static final String TAG = "MainActivity";
-	
+	public static final String TAG = MainActivity.class.getSimpleName();
+		
 	private CrystalBall mCrystalBall = new CrystalBall();
 	private TextView mAnswerLabel;
 	private ImageView mCrystalBallImage;
@@ -45,7 +45,9 @@ public class MainActivity extends Activity {
 			}
 		});
 		
-		Toast.makeText(this, "Tell Me Your Desires!", Toast.LENGTH_LONG).show();
+		//Toast.makeText(this, "Tell Me Your Desires!", Toast.LENGTH_LONG).show();
+		
+		Log.d(TAG, "Logging from OnCreate");
 	}
 
 	@Override
