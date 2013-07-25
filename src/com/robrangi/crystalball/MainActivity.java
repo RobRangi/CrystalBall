@@ -13,7 +13,6 @@ import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.robrangi.crystalball.R;
 import com.robrangi.crystalball.ShakeDetector.OnShakeListener;
 
 public class MainActivity extends Activity {
